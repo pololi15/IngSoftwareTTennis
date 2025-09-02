@@ -39,7 +39,14 @@ describe("TennisScorer", () => {
     scorer.player2Scores();
     expect(scorer.showScore()).toEqual("Love - 30");
   });
-  
+
+  it("El Jugador 2 marca 3 puntos y jugador 1 en cero", () => {
+    const scorer = new TennisScorer(0,0);
+    scorer.player2Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    expect(scorer.showScore()).toEqual("Love - 40");  
+  });
 
 
 
