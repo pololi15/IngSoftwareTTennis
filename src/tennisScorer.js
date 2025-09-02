@@ -1,5 +1,5 @@
 class TennisScorer {
-  constructor(player1Points, player2Points = 0) {
+  constructor(player1Points, player2Points) {
     this.player1Points = player1Points;
     this.player2Points = player2Points;
   }
@@ -22,6 +22,9 @@ class TennisScorer {
 
   player1Scores() {
     this.player1Points++;
+  }
+  player2Scores() {
+    this.player2Points++;
   }
 }
 

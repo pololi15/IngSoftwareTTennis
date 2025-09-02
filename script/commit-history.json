@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "50a437961ca5c8a1ace3288e80d9832b9c03090d",
     "author": "Ostin",
     "commit": {
       "date": "2025-09-02T04:46:22.000Z",
       "message": "Refactorizacion de codigo, hacelo lo mismo pero mejor",
-      "url": "https://github.com/pololi15/IngSoftwareTTennis/commit/HEAD"
+      "url": "https://github.com/pololi15/IngSoftwareTTennis/commit/50a437961ca5c8a1ace3288e80d9832b9c03090d"
     },
     "stats": {
       "total": 25,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Ostin",
+    "commit": {
+      "date": "2025-09-02T04:55:30.000Z",
+      "message": "feat: jugador 2 marca y jugador 1 en cero",
+      "url": "https://github.com/pololi15/IngSoftwareTTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 18,
+      "deletions": 5,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }
