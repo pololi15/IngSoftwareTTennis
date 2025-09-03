@@ -17,8 +17,14 @@ class TennisScorer {
  
     showScore() {
       const res = ["Love", "15", "30", "40"];
+      if (this.player1Points >= 3 && this.player2Points >= 3) {
+        if (this.player1Points === this.player2Points) {
+          return "Deuce";
+        }
+      }
       return res[this.player1Points] + " - " + res[this.player2Points];
-    }
+    
+  }
 
   player1Scores() {
     this.player1Points++;
