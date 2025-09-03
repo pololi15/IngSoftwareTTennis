@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8e94765340633bdab1c493853ece5a45e3bbafaf",
     "author": "Ostin",
     "commit": {
       "date": "2025-09-03T05:14:44.000Z",
       "message": "feat: jugador 1 marca 3 puntos y jugador 2 marca 3 puntos",
-      "url": "https://github.com/pololi15/IngSoftwareTTennis/commit/HEAD"
+      "url": "https://github.com/pololi15/IngSoftwareTTennis/commit/8e94765340633bdab1c493853ece5a45e3bbafaf"
     },
     "stats": {
       "total": 19,
@@ -205,6 +205,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Ostin",
+    "commit": {
+      "date": "2025-09-03T05:18:45.000Z",
+      "message": "Feat: Estado en Deuce si marca jugador 1, advantage for 1",
+      "url": "https://github.com/pololi15/IngSoftwareTTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2025-09-03"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
