@@ -83,7 +83,20 @@ describe("TennisScorer", () => {
     scorer.player1Scores();
     expect(scorer.showScore()).toEqual("Advantage Player 2");
   });
-  
+
+  it("El Jugador 1 marca 5 puntos y el jugador 2 marca 3 puntos", () => {
+    const scorer = new TennisScorer(0,0);
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    expect(scorer.showScore()).toEqual("Player 1 wins");
+  });
+
 
 
 });
