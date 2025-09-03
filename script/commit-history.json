@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6db58d8e4d3ff4d688f143cedc774de1098b58d1",
     "author": "Ostin",
     "commit": {
       "date": "2025-09-03T05:25:42.000Z",
       "message": "Feat: Jugador 1 marca 5 puntos y jugador 2 marca 3 puntos",
-      "url": "https://github.com/pololi15/IngSoftwareTTennis/commit/HEAD"
+      "url": "https://github.com/pololi15/IngSoftwareTTennis/commit/6db58d8e4d3ff4d688f143cedc774de1098b58d1"
     },
     "stats": {
       "total": 17,
@@ -262,6 +262,25 @@
     },
     "coverage": 100,
     "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Ostin",
+    "commit": {
+      "date": "2025-09-03T05:28:03.000Z",
+      "message": "Feat: Jugador 2 marca 5 puntos y jugador 1 marca 3 puntos",
+      "url": "https://github.com/pololi15/IngSoftwareTTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2025-09-03"
+    },
+    "coverage": 100,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }
