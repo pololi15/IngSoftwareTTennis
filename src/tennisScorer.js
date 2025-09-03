@@ -22,6 +22,8 @@ class TennisScorer {
           return "Deuce";
         } else if (this.player1Points === this.player2Points + 1) {
           return "Advantage Player 1";
+        } else if (this.player2Points === this.player1Points + 1) {
+          return "Advantage Player 2";
         }
       }
       return res[this.player1Points] + " - " + res[this.player2Points];
